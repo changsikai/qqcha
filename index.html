@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
+<meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<title>QQ在线查绑</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.0/dist/css/mdui.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.0/dist/js/mdui.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://www.qz.al/myweb/js/search.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://lib.baomitu.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://lib.baomitu.com/layer/3.1.1/layer.js"></script>
+    <script src="https://www.qz.al/myweb/js/layer.js"></script>
+    <script src="http://lib.baomitu.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="http://lib.baomitu.com/respond.js/1.4.2/respond.min.js"></script> 
+    <script src="https://cdn.bootcss.com/sweetalert/2.1.0/sweetalert.min.js"></script>
+</head>
+<body class="mdui-theme-primary-indigo mdui-theme-accent-pink">
+<style>
+::selection {
+  background: rgba(0,149,255,.1);
+}
+body:before{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .3;
+  z-index: -1;
+  content: "";
+  position: fixed;
+  background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+}
+.mdui-textfield-input{
+  float: left;
+  width: 75%;
+  text-transform: none;
+}
+.mdui-btn{
+  width: 25%;
+}
+.mdui-container {
+  max-width: 900px;
+  margin-top: 6em;
+  margin-bottom: 4em;
+}
+.mdui-btn, .mdui-fab {
+  min-width: 0px;
+}
+.mdui-card{
+  opacity: .8;
+  padding: 2em;;
+  border-radius: 6px;
+}
+.down .mdui-btn{
+  width: auto;
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+p{
+    opacity: .8;
+}
+.mdui-card-content{
+    padding: 16px 0 0 0;
+}
+</style>
+<main class="mdui-container">
+<div class="mdui-card">
+	<img class="mdui-img-circle mdui-center" style="width: 150px;" src="http://img04.sogoucdn.com/app/a/200678/fd316afbc8a73be804311a0a6cb29fbf.gif"/>
+  <h1 class='mdui-text-center'>QQ绑在线查询</h1>
+  <div class="mdui-typo">
+    <p><strong>温馨提示 : </strong><u>请勿将此用于非法用途，本站仅供娱乐，凡涉及法律问题，均与本站无关</u> </p>
+    <p style="text-align:center;"> <a target="_blank" href="https://www.qz.al/2020/11/22/1373.html">数据下载</a></p>
+    
+  </div>
+<div class="mdui-card-content mdui-typo">
+	<div class="mdui-textfield mdui-textfield-floating-label">
+		<input class="mdui-textfield-input" type="text" id="input" placeholder="请输入QQ号" required/>
+		<div class="mdui-textfield-error">
+			需要查找的QQ不能为空
+		</div>
+		<button class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="qbang('cha')">查找</button>
+	</div>
+</div>
+<div class="down mdui-text-center">
+<div class="mdui-textfield mdui-textfield-floating-label">
+ <div class="list-group-item list-group-item-warning" style="font-weight: bold;display: none;" id="jiexi_data">
+                            <div class="input-group">
+                                <input type="text" class="mdui-textfield-input" id="mobile">
+                                <span class="input-group-addon">手机号码</span>
+                            </div>
+		</div>
+</div>
+</div>
+</main>
+<script>
+
+swal('接口状态:当前可用','\n输入QQ号码即可查询手机\n因接口数据访问量大\n请耐心等待1~2s!','success'); function AddFavorite(title, url) {
+  try {
+
+      window.external.addFavorite(url, title);
+
+  }
+
+catch (e) {
+
+     try {
+
+       window.sidebar.addPanel(title, url,);
+
+    }
+
+     catch (e) {
+
+         alert("抱歉，您所使用的浏览器无法完成此操作。");
+
+     }
+
+  }
+
+}
+
+</script>
+</body>
+</html>
